@@ -6,7 +6,7 @@
         <remove-project name="platform/hardware/samsung/nfc" />
 
         <!-- Sync trees -->
-        <project path="device/samsung" name="eurekadevelopment/android_device_samsung_exynos7885" remote="githublab" revision="android-13" />
+        <project path="device/samsung" name="eurekadevelopment/android_device_samsung_exynos7885" remote="githublab" revision="android-14" />
         <project path="kernel/samsung/exynos7885" name="eurekadevelopment/Eureka-Kernel-Exynos7885-Q-R-S" remote="githublab" revision="R10.1_rom" />
         <project path="hardware/samsung/nfc" name="LineageOS/android_hardware_samsung_nfc" remote="githublab" revision="lineage-18.1" />
         <project path="hardware/samsung_slsi/libbt" name="eurekadevelopment/android_hardware_samsung_slsi_libbt" remote="githublab" revision="android-13" />
