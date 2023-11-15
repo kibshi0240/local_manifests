@@ -7,7 +7,7 @@
 
         <!-- Sync trees -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka" revision="android-14" />
-        <project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="eureka" revision="R14.2_rom" />
+        <project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="eureka" revision="R15_rom" />
         <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="linage" revision="lineage-20" />
         <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="eureka" revision="lineage-21" />
         <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="linage" revision="lineage-20" />
