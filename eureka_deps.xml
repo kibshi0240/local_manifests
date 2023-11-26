@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote name="eureka"
-			fetch="https://github.com/eurekadevelopment"
-			revision="lineage-20"/>
-		<remote name="linage"
-			fetch="https://github.com/LineageOS" />
+                fetch="https://github.com/eurekadevelopment"
+                revision="lineage-20"/>
+        <remote name="linage"
+                fetch="https://github.com/LineageOS" />
         <remote name="royna"
-			fetch="https://github.com/Roynas-Android-Playground"
-			revision="master"/>
+                fetch="https://github.com/Roynas-Android-Playground"
+                revision="master"/>
         <!-- Sync trees -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka" revision="android-14" />
         <project path="kernel/samsung/exynos7885" name="Eureka-Kernel-Exynos7885-Q-R-S" remote="eureka" revision="R15_rom" />
         <project path="hardware/samsung_slsi/libbt" name="android_hardware_samsung_slsi_libbt" remote="linage" revision="lineage-20" />
-        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" remote="eureka" revision="lineage-21" />
-        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" remote="linage" revision="lineage-20" />
-		<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal" name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"
+                 remote="eureka" revision="lineage-21" />
+        <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib" name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
+                 remote="linage" revision="lineage-20" />
+        <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" />
         <project path="hardware/samsung" name="android_hardware_samsung" remote="eureka" revision="AOSP-14"/>
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka" revision="android-14"/>
-		<!-- SLSI Linaro -->
+        <!-- SLSI Linaro -->
         <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="eureka" />
-		<project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="eureka" />
+        <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="eureka" />
         <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="eureka" />
         <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="eureka" />
 </manifest>
