@@ -2,7 +2,7 @@
 <manifest>
         <remote name="eureka"
                 fetch="https://github.com/eurekadevelopment"
-                revision="lineage-20"/>
+                revision="lineage-21"/>
         <remote name="linage"
                 fetch="https://github.com/LineageOS" />
         <remote name="royna"
@@ -21,7 +21,8 @@
         <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="fourteen"/>
         <project path="vendor/samsung" name="android_vendor_samsung_exynos7885" remote="eureka" revision="android-14"/>
         <!-- SLSI Linaro -->
-        <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="eureka" />
+	<project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="eureka" />
+	<project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="eureka" />
         <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="eureka" />
         <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="eureka" />
         <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="eureka" />
